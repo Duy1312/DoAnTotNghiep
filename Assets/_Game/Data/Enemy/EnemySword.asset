@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d08e8e4fdfeba704eae2d3884cf7dca0, type: 3}
+  m_Name: EnemySword
+  m_EditorClassIdentifier: 
+  maxHealth: 250
+  deathParticle: {fileID: 1081046105031841602, guid: c294597c5d23c8d4597c5c31b9cdb391, type: 3}
+  deathPart:
+  - {fileID: 5483832712297461789, guid: c3522cfc2a9054645a53b55e549d38c4, type: 3}
+  - {fileID: 2887500841380482927, guid: f8ba1f02d7f58904988ce8856010978c, type: 3}
+  - {fileID: 8103509814041788482, guid: 8a55ae6b1141cdc4a97bb0e558858b1e, type: 3}
+  chargeTime: 2
+  chargeSpeed: 3
+  checkAttackDistance: 1
+  checkDistanceGround: 2
+  speed: 2
+  ledgeBehindCheckDistance: 2
+  checkDistancePlayer: 2
+  detectMaskPopTime: 1
+  detectWaitTime: 0.5
+  damage: 40
+  knockBackAngle: {x: 1.5, y: 1}
+  knockBackForce: 5

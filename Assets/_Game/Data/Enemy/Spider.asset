@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d08e8e4fdfeba704eae2d3884cf7dca0, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  maxHealth: 150
+  deathParticle: {fileID: 1081046105031841602, guid: c294597c5d23c8d4597c5c31b9cdb391, type: 3}
+  deathPart:
+  - {fileID: 3736563258482573188, guid: b56133673e8eaff46930993a312ad389, type: 3}
+  - {fileID: 8422774721203553096, guid: 6d43824ece5c4694188c26a7dac0c49c, type: 3}
+  chargeTime: 2
+  chargeSpeed: 3
+  checkAttackDistance: 1
+  checkDistanceGround: 3
+  speed: 2
+  ledgeBehindCheckDistance: 0
+  checkDistancePlayer: 3
+  detectMaskPopTime: 1
+  detectWaitTime: 0.5
+  damage: 25
+  knockBackAngle: {x: 1, y: 1}
+  knockBackForce: 5

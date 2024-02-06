@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a362a4495a0323847b1fd5c6b887eab9, type: 3}
+  m_Name: Quest3
+  m_EditorClassIdentifier: 
+  title: NPC
+  sentences:
+  - Wow, you're so great
+  - You can fly by press C
+  - Now last mission at this level
+  - find sword to use sword
+  - if you have that, you will be so strong

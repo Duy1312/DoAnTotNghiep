@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689d65d1dba8d6945b52876c31895f3f, type: 3}
+  m_Name: Coin
+  m_EditorClassIdentifier: 
+  dropName: Coin
+  dropChance: 1
+  dropPrefab: {fileID: 1969448031765206964, guid: d14f3bada7e721a469f66c363ac3465d, type: 3}
+  isUpdate: 0
